@@ -1,0 +1,17 @@
+C:\Users\Hp\AppData\Local\Temporary Projects\PenggajianMyql\bin\Debug\PenggajianMyql.exe.config
+D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\bin\Debug\PenggajianMyql.exe.config
+D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\bin\Debug\PenggajianMyql.exe
+D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\bin\Debug\PenggajianMyql.pdb
+D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\bin\Debug\PenggajianMyql.xml
+D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.Main.resources
+D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.Resources.resources
+D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.vbproj.GenerateResource.Cache
+D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.exe
+D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.xml
+D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.pdb
+D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.Dashboard.resources
+D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.Pegawai.resources
+D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.Jabatan.resources
+D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.vbprojResolveAssemblyReference.cache
+D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.Login.resources
+D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.Penggajian.resources

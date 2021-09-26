@@ -19,7 +19,7 @@ Public Class Laporan
             oDocument.Load(rptpath + "LapJabatan.rpt")
             oDocument.SetDataSource(New DataSet())
         ElseIf keyfor = "gaji" Then
-            oDocument.Load(rptpath + "LapPenggajian.rpt")
+            oDocument.Load(rptpath + "LapGaji.rpt")
             oDocument.SetDataSource(New DataSet())
         End If
         CrystalReportViewer1.ReportSource = oDocument

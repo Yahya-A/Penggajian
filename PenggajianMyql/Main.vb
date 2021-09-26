@@ -1,5 +1,11 @@
 ﻿Public Class Main
 
+    Public keyfor As String
+
+    Public Sub LapPreview(keyLap As String)
+        keyfor = keyLap
+    End Sub
+
     Sub switchPanel(ByVal panel As Form)
         Panel1.Controls.Clear()
         panel.TopLevel = False
@@ -34,7 +40,26 @@
         switchPanel(Penggajian)
     End Sub
 
-    Private Sub PegawaiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PegawaiToolStripMenuItem.Click
-        switchPanel(Laporan)
+    Private Sub PegawaiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles lappegawai.Click
+        Laporan.keyfor = "pegawai"
+        Laporan.Show()
+    End Sub
+
+    Private Sub lapjabatan_Click(sender As Object, e As EventArgs) Handles lapjabatan.Click
+        Laporan.keyfor = "jabatan"
+        Laporan.Show()
+    End Sub
+
+    Private Sub lapgaji_Click(sender As Object, e As EventArgs) Handles lapgaji.Click
+        Laporan.keyfor = "gaji"
+        Laporan.Show()
+    End Sub
+
+    Private Sub KeluarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KeluarToolStripMenuItem.Click
+        Me.Close()
+    End Sub
+
+    Private Sub MenuUtamaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MenuUtamaToolStripMenuItem.Click
+        switchPanel(Dashboard)
     End Sub
 End Class

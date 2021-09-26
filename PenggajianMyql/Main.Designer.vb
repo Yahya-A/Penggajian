@@ -24,15 +24,15 @@ Partial Class Main
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.DashboardToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MasterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PenggajianToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.LaporanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PegawaiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PegawaiToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.JabatanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuUtamaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LogoutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.KeluarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MasterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PegawaiToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.JabatanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PenggajianToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LaporanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PegawaiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -53,12 +53,42 @@ Partial Class Main
         Me.DashboardToolStripMenuItem.Size = New System.Drawing.Size(76, 20)
         Me.DashboardToolStripMenuItem.Text = "Dashboard"
         '
+        'MenuUtamaToolStripMenuItem
+        '
+        Me.MenuUtamaToolStripMenuItem.Name = "MenuUtamaToolStripMenuItem"
+        Me.MenuUtamaToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.MenuUtamaToolStripMenuItem.Text = "Menu Utama"
+        '
+        'LogoutToolStripMenuItem
+        '
+        Me.LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem"
+        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.LogoutToolStripMenuItem.Text = "Logout"
+        '
+        'KeluarToolStripMenuItem
+        '
+        Me.KeluarToolStripMenuItem.Name = "KeluarToolStripMenuItem"
+        Me.KeluarToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.KeluarToolStripMenuItem.Text = "Keluar"
+        '
         'MasterToolStripMenuItem
         '
         Me.MasterToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PegawaiToolStripMenuItem1, Me.JabatanToolStripMenuItem})
         Me.MasterToolStripMenuItem.Name = "MasterToolStripMenuItem"
         Me.MasterToolStripMenuItem.Size = New System.Drawing.Size(55, 20)
         Me.MasterToolStripMenuItem.Text = "Master"
+        '
+        'PegawaiToolStripMenuItem1
+        '
+        Me.PegawaiToolStripMenuItem1.Name = "PegawaiToolStripMenuItem1"
+        Me.PegawaiToolStripMenuItem1.Size = New System.Drawing.Size(118, 22)
+        Me.PegawaiToolStripMenuItem1.Text = "Pegawai"
+        '
+        'JabatanToolStripMenuItem
+        '
+        Me.JabatanToolStripMenuItem.Name = "JabatanToolStripMenuItem"
+        Me.JabatanToolStripMenuItem.Size = New System.Drawing.Size(118, 22)
+        Me.JabatanToolStripMenuItem.Text = "Jabatan"
         '
         'PenggajianToolStripMenuItem
         '
@@ -78,36 +108,6 @@ Partial Class Main
         Me.PegawaiToolStripMenuItem.Name = "PegawaiToolStripMenuItem"
         Me.PegawaiToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.PegawaiToolStripMenuItem.Text = "Pegawai"
-        '
-        'PegawaiToolStripMenuItem1
-        '
-        Me.PegawaiToolStripMenuItem1.Name = "PegawaiToolStripMenuItem1"
-        Me.PegawaiToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
-        Me.PegawaiToolStripMenuItem1.Text = "Pegawai"
-        '
-        'JabatanToolStripMenuItem
-        '
-        Me.JabatanToolStripMenuItem.Name = "JabatanToolStripMenuItem"
-        Me.JabatanToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.JabatanToolStripMenuItem.Text = "Jabatan"
-        '
-        'MenuUtamaToolStripMenuItem
-        '
-        Me.MenuUtamaToolStripMenuItem.Name = "MenuUtamaToolStripMenuItem"
-        Me.MenuUtamaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.MenuUtamaToolStripMenuItem.Text = "Menu Utama"
-        '
-        'LogoutToolStripMenuItem
-        '
-        Me.LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem"
-        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.LogoutToolStripMenuItem.Text = "Logout"
-        '
-        'KeluarToolStripMenuItem
-        '
-        Me.KeluarToolStripMenuItem.Name = "KeluarToolStripMenuItem"
-        Me.KeluarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.KeluarToolStripMenuItem.Text = "Keluar"
         '
         'Panel1
         '

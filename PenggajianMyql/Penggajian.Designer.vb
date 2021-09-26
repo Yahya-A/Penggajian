@@ -22,7 +22,6 @@ Partial Class Penggajian
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Penggajian))
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btncetak = New System.Windows.Forms.Button()
         Me.txtidpeg = New System.Windows.Forms.TextBox()
@@ -100,7 +99,6 @@ Partial Class Penggajian
         Me.btncetak.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btncetak.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btncetak.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.btncetak.Image = CType(resources.GetObject("btncetak.Image"), System.Drawing.Image)
         Me.btncetak.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btncetak.Location = New System.Drawing.Point(228, 457)
         Me.btncetak.Name = "btncetak"
@@ -165,7 +163,6 @@ Partial Class Penggajian
         Me.btnbatal.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnbatal.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnbatal.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.btnbatal.Image = CType(resources.GetObject("btnbatal.Image"), System.Drawing.Image)
         Me.btnbatal.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnbatal.Location = New System.Drawing.Point(123, 457)
         Me.btnbatal.Name = "btnbatal"
@@ -181,7 +178,6 @@ Partial Class Penggajian
         Me.btntambah.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btntambah.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btntambah.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.btntambah.Image = CType(resources.GetObject("btntambah.Image"), System.Drawing.Image)
         Me.btntambah.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btntambah.Location = New System.Drawing.Point(17, 457)
         Me.btntambah.Name = "btntambah"

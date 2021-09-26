@@ -22,7 +22,6 @@ Partial Class Jabatan
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Jabatan))
         Me.DataGridJabatan = New System.Windows.Forms.DataGridView()
         Me.txtidjabatan = New System.Windows.Forms.TextBox()
         Me.txtkdjabatan = New System.Windows.Forms.TextBox()
@@ -91,7 +90,6 @@ Partial Class Jabatan
         Me.btnbatal.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnbatal.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnbatal.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.btnbatal.Image = CType(resources.GetObject("btnbatal.Image"), System.Drawing.Image)
         Me.btnbatal.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnbatal.Location = New System.Drawing.Point(315, 210)
         Me.btnbatal.Name = "btnbatal"
@@ -107,7 +105,6 @@ Partial Class Jabatan
         Me.btnhapus.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnhapus.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnhapus.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.btnhapus.Image = CType(resources.GetObject("btnhapus.Image"), System.Drawing.Image)
         Me.btnhapus.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnhapus.Location = New System.Drawing.Point(219, 210)
         Me.btnhapus.Name = "btnhapus"
@@ -123,7 +120,6 @@ Partial Class Jabatan
         Me.btnubah.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnubah.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnubah.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.btnubah.Image = CType(resources.GetObject("btnubah.Image"), System.Drawing.Image)
         Me.btnubah.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnubah.Location = New System.Drawing.Point(123, 210)
         Me.btnubah.Name = "btnubah"
@@ -139,7 +135,6 @@ Partial Class Jabatan
         Me.btntambah.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btntambah.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btntambah.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.btntambah.Image = CType(resources.GetObject("btntambah.Image"), System.Drawing.Image)
         Me.btntambah.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btntambah.Location = New System.Drawing.Point(27, 210)
         Me.btntambah.Name = "btntambah"
@@ -252,6 +247,7 @@ Partial Class Jabatan
         Me.gbmasterpegawai.ResumeLayout(False)
         Me.gbmasterpegawai.PerformLayout()
         Me.ResumeLayout(False)
+
     End Sub
     Friend WithEvents DataGridJabatan As System.Windows.Forms.DataGridView
     Friend WithEvents txtidjabatan As System.Windows.Forms.TextBox

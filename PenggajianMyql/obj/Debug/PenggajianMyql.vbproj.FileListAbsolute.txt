@@ -12,6 +12,6 @@ D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyq
 D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.Dashboard.resources
 D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.Pegawai.resources
 D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.Jabatan.resources
-D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.vbprojResolveAssemblyReference.cache
 D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.Login.resources
 D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.Penggajian.resources
+D:\Ari\Andan\PenggajianNew\PenggajianMyql\PenggajianMyql\obj\Debug\PenggajianMyql.CetakSlip.resources
